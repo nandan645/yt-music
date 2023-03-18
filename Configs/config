@@ -1,0 +1,14 @@
+# Proxy Settings
+--proxy 10.7.0.1:8080
+# External Downlader
+--downloader aria2c
+# Downlaod Directory
+-o ~/Music/%(title)s.%(ext)s
+# Download as audio
+--extract-audio
+# Make a list to check is file was previously downloaded and skip next time
+--download-archive ~/Music/.config/downloaded_ids
+# Playlists file
+--batch-file ~/Music/.config/playlists
+# Defining audio format
+--audio-format mp3
