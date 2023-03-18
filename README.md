@@ -1,2 +1,2 @@
-# yt-music
-Downloads music from all your favourite youtube playlists
+# Yt-music
+Download music from your favourive list of playlists.
